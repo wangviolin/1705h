@@ -25,7 +25,7 @@ public class GoodsController {
 	public String findAll(Model m){
 		List<Goods> list = service.findAll();
 		m.addAttribute("list",list);
-		m.addAttribute("list",list);
+		//m.addAttribute("list",list);
 		return "list";
 	}
 	

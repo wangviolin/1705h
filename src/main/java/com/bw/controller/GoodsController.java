@@ -44,4 +44,8 @@ public class GoodsController {
 		List<Brand> pplist = service.findppAll(cid);
 		return pplist;
 	}
+	
+	public static void hfahha(){
+		System.out.println("哈哈哈哈哈哈");
+	}
 }
